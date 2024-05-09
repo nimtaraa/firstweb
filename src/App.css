@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+@font-face {
+  font-family: Inter;
+  src: url('../public/Inter-Bold.woff2'); 
+}
+.Inter {
+  font-family: Inter;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
