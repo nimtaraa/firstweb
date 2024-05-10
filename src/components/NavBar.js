@@ -15,13 +15,13 @@ function NavBar() {
       </Container>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="ml-auto" style={{ fontFamily: 'Inter, sans-serif' }}>
+        <Nav className="ml-auto" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 100 }}>
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#features">Features</Nav.Link>
           <Nav.Link href="#community">Community</Nav.Link>
           <Nav.Link href="#blog">Blog</Nav.Link>
           <Nav.Link href="#pricing">Pricing</Nav.Link>
-          <Button variant="success"style={{fontSize:'12px',minWidth:'120px',backgroundColor:'#4CAF4F',borderColor:'#4CAF4F'}}>Register Now <BsArrowRight /></Button>
+          <Button variant="success"style={{fontSize:'13px',minWidth:'150px',minHeight:'45px',backgroundColor:'#4CAF4F',borderColor:'#4CAF4F'}}>Register Now <BsArrowRight/></Button>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

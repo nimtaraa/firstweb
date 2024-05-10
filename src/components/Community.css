@@ -1,0 +1,24 @@
+.community-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.community-heading {
+    text-align: center;
+}
+
+.community-description {
+    text-align: center;
+}
+
+.community-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icon {
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}

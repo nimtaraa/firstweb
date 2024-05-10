@@ -1,0 +1,47 @@
+.hero-container {
+    display: flex;
+    padding: 126.82px 100.23px 86.82px 100.23px;
+    background-color: #F5F7FA;
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-container {
+    /* flex: 1; */
+    /* display: flex; */
+    justify-content: flex-end;
+    align-items: center; 
+    padding-right: 30px;
+    
+}
+
+.image-container img {
+    max-width: 100%; 
+    width: 320px; 
+    height: auto;
+}
+
+
+.topic {
+    text-align: center;
+    
+}
+.client{
+    margin-top: 40px;
+}
+.logos-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; 
+}
+.logo {
+    width: 49.41px;
+    height: 49.41px; 
+    margin: 0 70px; 
+    
+}
